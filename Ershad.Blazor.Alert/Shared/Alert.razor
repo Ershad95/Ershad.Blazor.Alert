@@ -1,0 +1,57 @@
+﻿@using Ershad.Blazor.Alert.Model
+
+<div class="@classNames" style="max-width: 100%" @onclick="Close">
+    <div class="card-header">@headerMessage</div>
+    <div class="card-body">
+        <h5 class="card-title">@message</h5>
+        <p class="card-text">@footerMessage</p>
+    </div>
+</div>
+@code {
+    private void Close()=> classNames += " visually-hidden ";
+    [Parameter]
+    public string headerMessage { get; set; }
+    [Parameter]
+    public string message { get; set; }
+    [Parameter]
+    public string footerMessage { get; set; }
+    [Parameter]
+    public TypeAlert typeAlert { get; set; }
+    [Parameter]
+    public AnimationType AnimationType { get; set; }
+    private string classNames = "card text-white animate__animated";
+    protected override Task OnInitializedAsync()
+    {
+        switch (typeAlert)
+        {
+            case TypeAlert.Danger:
+                classNames += " bg-danger";
+                break;
+            case TypeAlert.Success:
+                classNames += " bg-success";
+                break;
+            case TypeAlert.Info:
+                classNames += " bg-info";
+                break;
+            case TypeAlert.Warning:
+                classNames += " bg-warning";
+                break;
+        }
+        switch (AnimationType)
+        {
+            case AnimationType.Bounce:
+                classNames += " animate__bounce";
+                break;
+            case AnimationType.Flash:
+                classNames += " animate__flash";
+                break;
+            case AnimationType.HeartBeat:
+                classNames += " animate__heartBeat";
+                break;
+            case AnimationType.Pulse:
+                classNames += " animate__pulse";
+                break;
+        }
+        return base.OnInitializedAsync();
+    }
+}
