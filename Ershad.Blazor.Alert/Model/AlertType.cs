@@ -14,4 +14,9 @@
         Pulse=3,
         HeartBeat=4
     }
+    public enum DirectionType
+    {
+        RTL = 1,
+        LTR=2
+    }
 }

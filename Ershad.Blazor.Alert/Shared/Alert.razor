@@ -1,14 +1,26 @@
 ﻿@using Ershad.Blazor.Alert.Model
 
-<div class="@classNames" style="max-width: 100%" @onclick="Close">
+<div class="@classNames" style=@styles @onclick="Close">
     <div class="card-header">@headerMessage</div>
     <div class="card-body">
-        <h5 class="card-title">@message</h5>
-        <p class="card-text">@footerMessage</p>
+        @{
+            if (ChildContent != null)
+            {
+                @ChildContent;
+            }
+            else
+            {
+                <h5 class="card-title">@message</h5>
+                <p class="card-text">@footerMessage</p>
+            }
+        }
     </div>
 </div>
 @code {
-    private void Close()=> classNames += " visually-hidden ";
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    private void Close() => classNames += " visually-hidden ";
+    public string styles{ get; set; }
     [Parameter]
     public string headerMessage { get; set; }
     [Parameter]
@@ -19,9 +31,21 @@
     public TypeAlert typeAlert { get; set; }
     [Parameter]
     public AnimationType AnimationType { get; set; }
+    [Parameter]
+    public DirectionType direction { get; set; } = DirectionType.LTR;
     private string classNames = "card text-white animate__animated";
     protected override Task OnInitializedAsync()
     {
+        styles = "width:100%;";
+        switch (direction)
+        {
+            case DirectionType.RTL:
+                styles += " direction:rtl";
+                break;
+            case DirectionType.LTR:
+                styles += " direction:ltr";
+                break;
+        }
         switch (typeAlert)
         {
             case TypeAlert.Danger:

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ershad.Blazor.Alert</id>
+    <version>1.0.1</version>
+    <authors>Ershad_Raoufi</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://ershad95.github.io/Ershad.Blazor.Alert/</projectUrl>
+    <description>با استفاده از این افزونه می تونید خیلی راحت هشدارهای مختلف با کم ترین کد زن به کاربر نمایش بدید</description>
+    <copyright>@All Rights Reserved By Ershad Raoufi</copyright>
+    <tags>blazor dotnet alert customAlert</tags>
+    <repository type="git" url="https://github.com/Ershad95/Ershad.Blazor.Alert" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net6.0/appsettings.json" buildAction="Content" />
+      <files include="any/net6.0/Paomedia-Small-N-Flat-Sign-warning.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\bin\Release\net6.0\Ershad.Blazor.Alert.runtimeconfig.json" target="lib\net6.0\Ershad.Blazor.Alert.runtimeconfig.json" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\bin\Release\net6.0\Ershad.Blazor.Alert.dll" target="lib\net6.0\Ershad.Blazor.Alert.dll" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\obj\Release\net6.0\staticwebassets\msbuild.Ershad.Blazor.Alert.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\obj\Release\net6.0\staticwebassets\msbuild.build.Ershad.Blazor.Alert.props" target="build\Ershad.Blazor.Alert.props" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ershad.Blazor.Alert.props" target="buildMultiTargeting\Ershad.Blazor.Alert.props" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.Ershad.Blazor.Alert.props" target="buildTransitive\Ershad.Blazor.Alert.props" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\obj\Release\net6.0\scopedcss\projectbundle\Ershad.Blazor.Alert.bundle.scp.css" target="staticwebassets\Ershad.Blazor.Alert.bundle.scp.css" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\bootstrap\bootstrap.min.css.map" target="staticwebassets\css\bootstrap\bootstrap.min.css.map" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css" target="staticwebassets\css\open-iconic\font\css\open-iconic-bootstrap.min.css" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\open-iconic\font\fonts\open-iconic.eot" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.eot" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\open-iconic\font\fonts\open-iconic.otf" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.otf" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\open-iconic\font\fonts\open-iconic.svg" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.svg" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.ttf" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\open-iconic\font\fonts\open-iconic.woff" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.woff" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\open-iconic\FONT-LICENSE" target="staticwebassets\css\open-iconic\FONT-LICENSE" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\open-iconic\ICON-LICENSE" target="staticwebassets\css\open-iconic\ICON-LICENSE" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\open-iconic\README.md" target="staticwebassets\css\open-iconic\README.md" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\css\site.css" target="staticwebassets\css\site.css" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\wwwroot\favicon.ico" target="staticwebassets\favicon.ico" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\appsettings.Development.json" target="contentFiles\any\net6.0\appsettings.Development.json" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\appsettings.json" target="contentFiles\any\net6.0\appsettings.json" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\Paomedia-Small-N-Flat-Sign-warning.ico" target="content\Paomedia-Small-N-Flat-Sign-warning.ico" />
+    <file src="C:\Users\Ershad Raoufi\Desktop\oout\Ershad.Blazor.Alert\Ershad.Blazor.Alert\Paomedia-Small-N-Flat-Sign-warning.ico" target="contentFiles\any\net6.0\Paomedia-Small-N-Flat-Sign-warning.ico" />
+  </files>
+</package>

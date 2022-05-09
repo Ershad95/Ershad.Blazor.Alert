@@ -1,6 +1,33 @@
 ﻿@page "/"
-<Alert AnimationType=Model.AnimationType.Pulse
-       typeAlert=Model.TypeAlert.Warning
-       message="Message" headerMessage="Alert" footerMessage="Copy@Right"></Alert>
+<div class="alert alert-warning"><h4><i class="oi oi-warning"></i> Ershad.Blazor.Alert Sample</h4></div>
+<div class="row">
+    <div class="col-md-6">
+        <Alert AnimationType=Model.AnimationType.Pulse
+               typeAlert=Model.TypeAlert.Danger
+               message="Danger"
+               headerMessage="Alert"
+               footerMessage="Copy@Right"/>
+        <hr />
+        <Alert AnimationType=Model.AnimationType.Flash
+               typeAlert=Model.TypeAlert.Warning
+               headerMessage="Alert">
+            <h1>Warning!</h1>
+        </Alert>
+
+    </div>
+    <div class="col-md-6">
+        <Alert typeAlert=Model.TypeAlert.Success
+               headerMessage="Alert">
+            <h1>Success!</h1>
+        </Alert>
+        <hr />
+        <Alert typeAlert=Model.TypeAlert.Info
+               headerMessage="Alert">
+            <h1>Info!</h1>
+        </Alert>
+    </div>
+</div>
+
+
 
 

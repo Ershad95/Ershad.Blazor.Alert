@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hwokJH2uaFvzsyYMkoacy9WHeKV8evw3ndCrl/RzJp4=",
+  "Hash": "+57bfD6V1rOgA4k7O1zUVLhoxd9uLupH/dNTw79FtO8=",
   "Source": "Ershad.Blazor.Alert",
   "BasePath": "_content/Ershad.Blazor.Alert",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ershad Raoufi\\Desktop\\oout\\Ershad.Blazor.Alert\\Ershad.Blazor.Alert\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ershad.Blazor.Alert.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ershad Raoufi\\Desktop\\oout\\Ershad.Blazor.Alert\\Ershad.Blazor.Alert\\wwwroot\\css\\anim.css",
+      "SourceId": "Ershad.Blazor.Alert",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ershad Raoufi\\Desktop\\oout\\Ershad.Blazor.Alert\\Ershad.Blazor.Alert\\wwwroot\\",
+      "BasePath": "_content/Ershad.Blazor.Alert",
+      "RelativePath": "css/anim.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\anim.css"
     },
     {
       "Identity": "C:\\Users\\Ershad Raoufi\\Desktop\\oout\\Ershad.Blazor.Alert\\Ershad.Blazor.Alert\\wwwroot\\css\\bootstrap\\bootstrap.min.css",

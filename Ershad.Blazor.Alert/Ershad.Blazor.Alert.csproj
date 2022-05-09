@@ -4,15 +4,46 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Ershad_Raoufi</Authors>
     <Description>با استفاده از این افزونه می تونید خیلی راحت هشدارهای مختلف با کم ترین کد زن به کاربر نمایش بدید </Description>
-    <Copyright>Reserveb By Ershad Raoufi</Copyright>
+    <Copyright>@All Rights Reserved By Ershad Raoufi</Copyright>
     <PackageTags>blazor;dotnet;alert;customAlert;</PackageTags>
+    <RepositoryUrl>https://github.com/Ershad95/Ershad.Blazor.Alert</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://ershad95.github.io/Ershad.Blazor.Alert/</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ApplicationIcon>Paomedia-Small-N-Flat-Sign-warning.ico</ApplicationIcon>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+    <PackageIcon>emergency-alert-icon-alert-icon-8.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Optimize>False</Optimize>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\anim.css" />
+    <Content Remove="wwwroot\css\bootstrap\bootstrap.min.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Paomedia-Small-N-Flat-Sign-warning.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\css\anim.css" />
+    <EmbeddedResource Include="wwwroot\css\bootstrap\bootstrap.min.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\emergency-alert-icon-alert-icon-8.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
